@@ -1,5 +1,6 @@
 package histoire;
 import personnages.Commercant;
+import personnages.GrandMere;
 import personnages.Ronin;
 import personnages.Samourai;
 import personnages.Traitre;
@@ -40,5 +41,23 @@ public class HistoireTP5 {
 		masako.faireConnaissanceAvec(yaku);
 		masako.faireLeGentil();
 		masako.faireConnaissanceAvec(roro);
+		
+		System.out.print("\n");
+		
+		GrandMere grandmere = new GrandMere("Grand-Mère", 10);
+		grandmere.faireConnaissanceAvec(akimoto);
+		grandmere.faireConnaissanceAvec(yaku);
+		grandmere.faireConnaissanceAvec(masako);
+		grandmere.faireConnaissanceAvec(kumi);
+		grandmere.faireConnaissanceAvec(marco);
+		grandmere.faireConnaissanceAvec(chonin);
+		grandmere.ragoter();
+		grandmere.ragoter();
+		grandmere.ragoter();
+		grandmere.ragoter();
+		grandmere.ragoter();
+		grandmere.ragoter();
+		grandmere.ragoter();
+		grandmere.ragoter();
 	}
 }

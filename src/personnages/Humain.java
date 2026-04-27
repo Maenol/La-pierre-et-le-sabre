@@ -58,7 +58,7 @@ public class Humain {
 		}
 	}
 	
-	private void memoriser (Humain humain) {
+	protected void memoriser (Humain humain) {
 		if (this.nbConnaissances >= 30) {
 			for (int i = 0; i < (nbConnaissances - 1); i++ ) {
 				this.memoire[i] = this.memoire[i+1];
